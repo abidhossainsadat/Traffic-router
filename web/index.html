@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RoadPulse - AI-Powered Real-Time Traffic Notifications</title>
+    <meta name="description" content="RoadPulse monitors your saved routes and pushes real-time, AI-generated traffic alerts with plain-language notifications and actionable suggestions.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-icon">🚦</span>
+                RoadPulse
+            </a>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#demo">Demo</a></li>
+                <li><a href="#download">Download</a></li>
+            </ul>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Never Get Stuck in Traffic<br>
+                    <span class="highlight">Unaware Again</span>
+                </h1>
+                <p class="hero-subtitle">
+                    RoadPulse monitors your saved routes and sends proactive, AI-powered traffic alerts 
+                    before you even start your commute. Save time, reduce stress, and drive smarter.
+                </p>
+                <div class="hero-cta">
+                    <a href="#download" class="btn btn-primary">Get Started Free</a>
+                    <a href="#demo" class="btn btn-secondary">See How It Works</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-value">12+</span>
+                        <span class="stat-label">Minutes Saved Daily</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-value">18%</span>
+                        <span class="stat-label">Less Fuel Consumption</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-value">Real-Time</span>
+                        <span class="stat-label">AI-Powered Alerts</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="phone-mockup">
+                    <div class="phone-screen">
+                        <div class="app-header">
+                            <span class="app-logo">🚦</span>
+                            <span class="app-name">RoadPulse</span>
+                        </div>
+                        <div class="app-content">
+                            <div class="notification-card demo-notification">
+                                <div class="notification-icon">⚠️</div>
+                                <div class="notification-content">
+                                    <strong>Heavy Traffic Detected</strong>
+                                    <p>Your usual route has 15 min delay. Leave 10 mins earlier or take alternate route via Highway 101.</p>
+                                </div>
+                            </div>
+                            <div class="route-card demo-route">
+                                <div class="route-info">
+                                    <span class="route-name">Home → Work</span>
+                                    <span class="route-status status-good">Good</span>
+                                </div>
+                                <div class="route-details">
+                                    <span>25 min normal</span>
+                                    <span>Currently 23 min</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Why Choose RoadPulse?</h2>
+                <p class="section-subtitle">Intelligent traffic monitoring that works for you, not against you</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🤖</div>
+                    <h3>AI-Powered Insights</h3>
+                    <p>Claude AI analyzes traffic patterns and provides plain-language explanations with actionable suggestions tailored to your routes.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⏰</div>
+                    <h3>Smart Departure Times</h3>
+                    <p>Get personalized recommendations on the best time to leave based on historical patterns and real-time conditions.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔔</div>
+                    <h3>Proactive Alerts</h3>
+                    <p>Receive notifications before significant delays occur. We monitor your routes so you don't have to.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🗺️</div>
+                    <h3>Multiple Route Support</h3>
+                    <p>Save and monitor unlimited routes. Home to work, school runs, weekend trips – we've got you covered.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Traffic History</h3>
+                    <p>View historical traffic data for your routes to identify patterns and plan better commutes.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌍</div>
+                    <h3>Google Maps Integration</h3>
+                    <p>Powered by Google Maps Routes API for accurate, real-time traffic data you can trust.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">How RoadPulse Works</h2>
+                <p class="section-subtitle">Three simple steps to smarter commuting</p>
+            </div>
+            <div class="steps-container">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Save Your Routes</h3>
+                        <p>Enter your frequent destinations – home, work, school, gym. RoadPulse securely stores your routes using Google Maps.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Set Your Preferences</h3>
+                        <p>Configure alert thresholds and commute times. Tell us when you typically travel and how much delay is acceptable.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Get Smart Alerts</h3>
+                        <p>Our AI monitors traffic conditions and sends you intelligent notifications with suggestions before you hit the road.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo Section -->
+    <section id="demo" class="demo">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">See RoadPulse in Action</h2>
+                <p class="section-subtitle">Interactive demo of the mobile app interface</p>
+            </div>
+            <div class="demo-container">
+                <div class="demo-phone">
+                    <div class="demo-screen">
+                        <div class="demo-nav">
+                            <span>🚦 RoadPulse</span>
+                            <button id="addRouteBtn" class="demo-add-btn">+ Add Route</button>
+                        </div>
+                        <div class="demo-alerts-section">
+                            <h4>Recent Alerts</h4>
+                            <div id="alertsList" class="demo-alerts-list">
+                                <div class="demo-alert-card">
+                                    <span class="alert-icon">⚠️</span>
+                                    <div class="alert-text">
+                                        <strong>Heavy Traffic on I-95</strong>
+                                        <p>15 min delay detected. Consider leaving 10 mins earlier.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="demo-routes-section">
+                            <h4>Your Routes</h4>
+                            <div id="routesList" class="demo-routes-list">
+                                <div class="demo-route-card">
+                                    <div class="route-header">
+                                        <span class="route-label">Home → Work</span>
+                                        <span class="route-badge badge-good">Good</span>
+                                    </div>
+                                    <p class="route-address">123 Main St → 456 Office Blvd</p>
+                                    <div class="route-footer">
+                                        <span>Alert at: 10 min delay</span>
+                                        <span>Updated: 2 mins ago</span>
+                                    </div>
+                                </div>
+                                <div class="demo-route-card">
+                                    <div class="route-header">
+                                        <span class="route-label">Home → School</span>
+                                        <span class="route-badge badge-moderate">Moderate</span>
+                                    </div>
+                                    <p class="route-address">123 Main St → 789 School Lane</p>
+                                    <div class="route-footer">
+                                        <span>Alert at: 5 min delay</span>
+                                        <span>Updated: 5 mins ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="demo-info">
+                    <h3>Try the Interactive Demo</h3>
+                    <p>Click "Add Route" to see how easy it is to set up traffic monitoring for your daily commutes.</p>
+                    <ul class="demo-features">
+                        <li>✓ Real-time traffic status updates</li>
+                        <li>✓ AI-generated insights and suggestions</li>
+                        <li>✓ Customizable alert thresholds</li>
+                        <li>✓ Historical traffic pattern analysis</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Start Your Smarter Commute Today</h2>
+                <p class="section-subtitle">Available on iOS and Android</p>
+            </div>
+            <div class="download-buttons">
+                <a href="#" class="store-btn">
+                    <span class="store-icon">🍎</span>
+                    <div class="store-text">
+                        <span>Download on the</span>
+                        <strong>App Store</strong>
+                    </div>
+                </a>
+                <a href="#" class="store-btn">
+                    <span class="store-icon">▶️</span>
+                    <div class="store-text">
+                        <span>GET IT ON</span>
+                        <strong>Google Play</strong>
+                    </div>
+                </a>
+            </div>
+            <div class="download-note">
+                <p>🎉 Currently in beta. Sign up for early access and get 3 months free!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <span class="logo-icon">🚦</span>
+                    RoadPulse
+                </a>
+                <p>AI-powered real-time traffic notifications for smarter commuting.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#download">Download</a></li>
+                        <li><a href="#">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2024 RoadPulse. All rights reserved.</p>
+                <p>Built with ❤️ using FastAPI, React Native, Google Maps, and Claude AI</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
